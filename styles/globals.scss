@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #d2bcbc;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  box-sizing: border-box;
+  max-width: 200rem;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
