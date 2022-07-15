@@ -1,3 +1,5 @@
+@use "./header/header.scss";
+
 *,
 *::after,
 *::before {
@@ -18,8 +20,8 @@ body {
   font-family: "Poppins", sans-serif;
   margin: auto;
   box-sizing: border-box;
-  max-width: 200rem;
   overflow-x: hidden;
+  width: 100%;
 }
 
 a {
