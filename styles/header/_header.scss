@@ -1,42 +1,42 @@
-@use "../utilities/index.scss" as *;
+@use "../utilities" as *;
 
 .header {
-  background-color: #100c0c;
-  height: 8rem;
-  color: #fff;
-  width: 100%;
+    background-color: #100c0c;
+    height: 8rem;
+    color: #fff;
+    width: 100%;
 }
 
 .header-nav {
-  max-width: 144rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    max-width: 144rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .desktop-menu {
-  right: 2rem;
-  top: 3rem;
-  position: absolute;
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-  li {
-    list-style: none;
-    &:hover {
-      background-color: #191516;
-      scale: 1.2;
-      transition: all 0.3s ease-in-out;
+    right: 2rem;
+    top: 3rem;
+    position: absolute;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    li {
+        list-style: none;
+        &:hover {
+            background-color: #191516;
+            scale: 1.2;
+            transition: all 0.3s ease-in-out;
+        }
     }
-  }
 
-  a {
-    text-decoration: none;
-    color: #fff;
-    border: 0.3rem solid $light-green;
-    padding: 0.4rem 2rem;
-    border-radius: 1rem;
-    font-weight: bold;
-    font-size: 2rem;
-  }
+    a {
+        text-decoration: none;
+        color: #fff;
+        border: 0.3rem solid $light-green;
+        padding: 0.4rem 2rem;
+        border-radius: 1rem;
+        font-weight: bold;
+        font-size: 2rem;
+    }
 }

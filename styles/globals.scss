@@ -3,27 +3,27 @@
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
 }
 
 html {
-  font-size: 62.5%;
-  height: 100%;
-  overflow-x: hidden;
-  background-color: #d2bcbc;
+    font-size: 62.5%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #d2bcbc;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  margin: auto;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  width: 100%;
+    font-family: "Poppins", sans-serif;
+    margin: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
