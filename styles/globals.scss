@@ -1,4 +1,4 @@
-@use "./header/header.scss";
+@forward "./header/header.scss";
 
 *,
 *::after,
@@ -21,9 +21,12 @@ body {
     margin: auto;
     box-sizing: border-box;
     overflow-x: hidden;
-    width: 100%;
 }
 
 a {
     text-decoration: none;
+}
+
+li {
+    list-style: none;
 }

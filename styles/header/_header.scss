@@ -1,42 +1,33 @@
 @use "../utilities" as *;
 
 .header {
-    background-color: #100c0c;
-    height: 8rem;
-    color: #fff;
-    width: 100%;
+    background-color: #0c0808;
+    height: 10rem;
+    display: grid;
+    place-content: center;
 }
 
 .header-nav {
-    max-width: 144rem;
+    height: 7rem;
+    width: 140rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
 
-.desktop-menu {
-    right: 2rem;
-    top: 3rem;
-    position: absolute;
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    li {
-        list-style: none;
-        &:hover {
-            background-color: #191516;
-            scale: 1.2;
-            transition: all 0.3s ease-in-out;
-        }
+    &__logo {
     }
 
-    a {
-        text-decoration: none;
-        color: #fff;
-        border: 0.3rem solid $light-green;
-        padding: 0.4rem 2rem;
-        border-radius: 1rem;
-        font-weight: bold;
-        font-size: 2rem;
+    &__links {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        a {
+            color: #fff;
+            border: 0.3rem solid $light-green;
+            padding: 0.4rem 2rem;
+            border-radius: 1rem;
+            font-weight: bold;
+            font-size: 2rem;
+        }
     }
 }
