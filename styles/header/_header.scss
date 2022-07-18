@@ -1,16 +1,13 @@
 @use "../utilities" as *;
 
 .header {
-    background-color: #0c0808;
-    height: 10rem;
     display: grid;
-    place-content: center;
 }
 
 .header-nav {
-    height: 7rem;
-    width: 140rem;
+    height: 10rem;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 
     &__logo {
@@ -18,9 +15,9 @@
 
     &__links {
         display: flex;
-        align-items: center;
         gap: 2rem;
-
+        align-items: center;
+        justify-content: center;
         a {
             color: #fff;
             border: 0.3rem solid $light-green;

@@ -12,15 +12,15 @@
 html {
     font-size: 62.5%;
     height: 100%;
-    overflow-x: hidden;
-    background-color: #d2bcbc;
 }
 
 body {
     font-family: "Poppins", sans-serif;
-    margin: auto;
     box-sizing: border-box;
-    overflow-x: hidden;
+    margin: auto;
+    max-width: 200rem;
+    background-color: #0c0808;
+    display: grid;
 }
 
 a {
