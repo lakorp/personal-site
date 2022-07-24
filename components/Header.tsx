@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logo from "../public/assets/logo.png";
-
+import Link from "next/link";
 type Props = {};
 
 const Header = (props: Props) => {
@@ -8,21 +8,21 @@ const Header = (props: Props) => {
         <header className="header">
             <nav className="header-nav">
                 <div className="header-nav__logo">
-                    <Image src={logo} alt="Logo" width="70" height="60" />
+                    <Image src={logo} alt="Logo" width="100" height="80" />
                 </div>
 
                 <ul className="header-nav__links">
                     <li>
-                        <a href="./about.html">About</a>
+                        <Link href="./about.html">About</Link>
                     </li>
                     <li>
-                        <a href="">Services</a>
+                        <Link href="">Services</Link>
                     </li>
                     <li>
-                        <a href="">Projects</a>
+                        <Link href="">Projects</Link>
                     </li>
                     <li>
-                        <a href="#subject">Contact</a>
+                        <Link href="#subject">Contact</Link>
                     </li>
                 </ul>
             </nav>

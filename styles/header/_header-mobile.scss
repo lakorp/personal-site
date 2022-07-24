@@ -1,0 +1,29 @@
+@use "../utilities" as *;
+
+@include breakpoint(phone) {
+    .header-nav {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        &__logo {
+            img {
+                border-radius: 50%;
+            }
+        }
+        &__links {
+            flex-direction: column;
+            margin: 10rem 0;
+            gap: 5rem;
+
+            a {
+                width: 100%;
+                color: #fff;
+                border: 0.3rem solid $light-green;
+                padding: 1rem 7rem;
+                border-radius: 1rem;
+                font-weight: bold;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}

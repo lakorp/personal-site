@@ -2,6 +2,8 @@
 
 .header {
     display: grid;
+    max-width: 144rem;
+    margin: 0 auto;
 }
 
 .header-nav {
@@ -11,6 +13,10 @@
     justify-content: space-between;
 
     &__logo {
+        img {
+            border-radius: 50%;
+            background-color: transparent;
+        }
     }
 
     &__links {
