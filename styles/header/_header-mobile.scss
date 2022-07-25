@@ -5,6 +5,8 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
+        position: relative;
         &__logo {
             img {
                 border-radius: 50%;
@@ -12,8 +14,8 @@
         }
         &__links {
             flex-direction: column;
-            margin: 10rem 0;
-            gap: 5rem;
+            // margin: 10rem 0;
+            gap: 7rem;
 
             a {
                 width: 100%;
@@ -24,6 +26,17 @@
                 font-weight: bold;
                 font-size: 1.6rem;
             }
+        }
+
+        #mobile-menu {
+            display: block;
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+        }
+        #close-btn {
+            display: block;
+            transform: rotate(270deg);
         }
     }
 }

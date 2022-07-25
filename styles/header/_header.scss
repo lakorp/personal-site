@@ -24,6 +24,7 @@
         gap: 2rem;
         align-items: center;
         justify-content: center;
+
         a {
             color: #fff;
             border: 0.3rem solid $light-green;
@@ -32,5 +33,14 @@
             font-weight: bold;
             font-size: 2rem;
         }
+    }
+
+    #mobile-menu {
+        display: none;
+        cursor: pointer;
+    }
+    #close-btn {
+        display: none;
+        cursor: pointer;
     }
 }

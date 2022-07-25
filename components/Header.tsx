@@ -1,5 +1,7 @@
 import Image from "next/image";
 import logo from "../public/assets/logo.png";
+import menu from "../public/assets/icons/menu.svg";
+import arrow from "../public/assets/icons/arrow.svg";
 import Link from "next/link";
 type Props = {};
 
@@ -25,6 +27,20 @@ const Header = (props: Props) => {
                         <Link href="#subject">Contact</Link>
                     </li>
                 </ul>
+
+                <div id="mobile-menu">
+                    <Image src={menu} alt="Logo" width="40" height="40" />
+                </div>
+
+                <div id="close-btn">
+                    <Image
+                        className="arrow"
+                        src={arrow}
+                        alt="Logo"
+                        width="180"
+                        height="180"
+                    />
+                </div>
             </nav>
         </header>
     );
